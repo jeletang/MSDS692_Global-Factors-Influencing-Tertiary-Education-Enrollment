@@ -7,5 +7,7 @@ As students move from primary through to tertiary education, the student populat
  - [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023)
  - [Central Intelligence Agency](https://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons/)
  - [Our World in Data](https://ourworldindata.org/)
+
 By exploring relationships among factors including literacy rates, employment information, and access to utilities, we can not only discover how they affect tertiary education enrollment, but also learn areas to address in an effort to encourage enrollment.
+
 To demonstrate correlated global factors, supervised learning and visualization are applied, as well as regression modeling since the target is numeric.
