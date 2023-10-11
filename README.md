@@ -18,9 +18,14 @@ To demonstrate correlated global factors, supervised learning and visualization 
 
 ## References
 <i>Charts</i>. (n.d.). Our World in Data. <b>https://ourworldindata.org/charts</b>
+
 <i>Guide to Country Comparisons</i>. (n.d.). The World Factbook - CIA. <b>https://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons/</b>
+
 <i>IDEA</i>. (n.d.). <b>https://idea.usaid.gov/cd</b>
+
 ILO Department of Statistics. (n.d.). <i>Topics - ILOSTAT</i>. ILOSTAT. <b>https://ilostat.ilo.org/topics/</b>.
+
 <i>Indicators</i>. (n.d.). World Bank Open Data. <b>https://data.worldbank.org/indicator/</b>.
+
 <i>SDG 6 Data</i>. (n.d.). <b>https://www.sdg6data.org/en</b>
 WorldBank. (n.d.). <i>School enrollment, tertiary (% gross)</i>. World Bank Gender Data Portal. <b>https://genderdata.worldbank.org/indicators/se-ter-enrr/?gender=total&view=trend</b>.
