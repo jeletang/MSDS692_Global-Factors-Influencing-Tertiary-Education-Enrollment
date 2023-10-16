@@ -2,7 +2,9 @@
 ## Overview
 Over the last two decades, tertiary education enrollment, on a global scale, has more than doubled, from 18.4% in 1999 to 39.2% in 2019 (WorldBank, n.d.). The transition through education levels, however, have seen a different trend as the student population decreases at every further level. Enrollment rates are highest at the primary level, gets lower at the secondary level and is lowest at tertiary level. The intention of this project is to focus on country-specific factors and how they relate to tertiary education enrollment.
 
-The dataset for this project was obtained from World Development Indicators as of 2019, published by World Bank, and in cases of missing data was supplemented by data from other trusted sources, listed below in the "Sources" section. The starting dataset comprised 266 observations (of which 217 were individual countries and 49 were aggregates based on World Bank classififcation) and 59 attributes. The focus of this project, tertiary education enrollment, was selected as the dependent target variable. By exploring relationships among factors including literacy rates, employment information, and access to utilities, we can not only discover how they affect tertiary education enrollment, but also learn areas to address in an effort to encourage enrollment.
+The dataset for this project was obtained from World Development Indicators as of 2019, published by World Bank, and in cases of missing data was supplemented by data from other trusted sources, listed below in the "Sources" section. The starting dataset comprised 266 observations (of which 217 were individual countries and 49 were aggregates based on World Bank classififcation) and 59 attributes. Due to some data not being readily available, missing fields not supplemented by other sources had to be discarded.
+
+The focus of this project, tertiary education enrollment, was selected as the dependent target variable. By exploring relationships among factors including literacy rates, employment information, and access to utilities, we can not only discover how they affect tertiary education enrollment, but also learn areas to address in an effort to encourage enrollment.
 
 To demonstrate correlated global factors, visualization was used, as well as regression modeling since the target is numeric.
 
@@ -18,20 +20,22 @@ Regression analysis was conducted using several different modeling techniques. T
 | Random Forest  | <b>97%</b>  | 75% |
 | Linear  | 93%  | 69% |
 | Decision Tree  | 94%  | 63% |
-| K-Nearest Neighbors (KNN)8 | 95%  | <b>80%</b> |
+| K-Nearest Neighbors (KNN) | 95%  | <b>80%</b> |
 
-On aggregate data, the Random Forest model performed best. On countries data, the KNN model outperformed the others, though it could be better.
+On aggregate data, the Random Forest model performed best. On countries data, the KNN model outperformed the others, though it could be better. Given these results, results from aggregate data were used.
 
 ## Summary/Conclusions
 <img width="944" alt="tee_by_region_income_2019" src="machine learning/tee_by_region_income_2019.png">
 
-Using the aggregate dataset, the North American and Europe & Central Asia regions had the highest tertiary education enrollment rates, while the Sub-Saharan African region had the lowest. Several global factors influence, and are influenced by, tertiary education enrollment. These include secondary school enrollment, access to utilities such as water and sanitation, literacy, adolescent fertility, and duration (years) of preprimary education, as determined by the Random Forest model tested on aggregate data. With the exception of adolescent fertility, the strongest influencing factors were positively correlated to the target.
+Using the aggregate dataset, the North American and Europe & Central Asia regions had the highest tertiary education enrollment rates, while the Sub-Saharan African region had the lowest. Similarly, the income levels of countries showed an interesting trend with regard to tertiary enrollment, in that, higher income countries reported higher tertiary enrollment rates.
+
+Several global factors influence, and are influenced by, tertiary education enrollment. These include secondary school enrollment, access to utilities such as water and sanitation, literacy, adolescent fertility, and duration (years) of preprimary education, as determined by the Random Forest model tested on aggregate data. With the exception of adolescent fertility, the strongest influencing factors were positively correlated to the target.
 
 <img width="643" alt="rf_influencing-factors" src="machine learning/rf_influencing-factors.png">
 
-These results mean that secondary school enrollment (and completion) contributes positively to enrollment in higher education. With regard to water and sanitation access, these are basic health needs and it stands to reason that healthy students are better equipped to learn and apply knowledge. Preprimary education and literacy are fundamentals to any level of education, and both fuel engagement and continued learning, which culminates at the tertiary level. Adolescent fertility and tertiary education enrollment rates naturally move in opposite directions as they require different responsibilities and dedication of resources.
+These results mean that secondary school enrollment contributes positively to enrollment in higher education. With regard to water and sanitation access, these are basic health needs and it stands to reason that healthy students are better equipped to learn and apply knowledge. Preprimary education and literacy are fundamentals to any level of education, and both fuel engagement and continued learning, which culminates at the tertiary level. Adolescent fertility and tertiary education enrollment rates naturally move in opposite directions as they require different responsibilities and dedication of resources as it relates to human capital.
 
-More could be learned about factors influencing tertiary education enrollment if features could be drilled down further into demographics such as age, sex, and income per capita. Since this data is collected over time, a time series analysis could be conducted to take into accounts impactful events such as natural disasters. Further exploration and evaluation of this data should continue, to address areas that most affect education in an effort to increase enrollment rates globally.
+More could be learned about factors influencing tertiary education enrollment if features could be drilled down further into demographics such as school level completion, age, sex, and income per capita. Since this data is collected over time, a time series analysis could be conducted to take into accounts impactful events such as natural disasters. Further exploration and evaluation of this data should continue, to address areas that most affect education in an effort to increase enrollment rates globally.
 
 ## Sources
  - World Bank
