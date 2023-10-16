@@ -29,7 +29,9 @@ Using the aggregate dataset, the North American and Europe & Central Asia region
 
 <img width="643" alt="rf_influencing-factors" src="https://github.com/jeletang/MSDS692_Global-Factors-Influencing-Tertiary-Education-Enrollment/assets/125221901/779731a1-96af-41df-a4e5-bd31a077d6e8">
 
-More could be learned about factors influencing tertiary education enrollment if features could be drilled down further into demographics such as age, sex, and income per capita. Since this data is collected over time, a time series analysis could be conducted to take into accounts impactful events such as natural disasters.
+These results mean that secondary school enrollment (and completion) contributes positively to enrollment in higher education. With regard to water and sanitation access, these are basic health needs and it stands to reason that healthy students are better equipped to learn and apply knowledge. Preprimary education and literacy are fundamentals to any level of education, and both fuel engagement and continued learning, which culminates at the tertiary level. Adolescent fertility and tertiary education enrollment rates naturally move in opposite directions as they require different responsibilities and dedication of resources.
+
+More could be learned about factors influencing tertiary education enrollment if features could be drilled down further into demographics such as age, sex, and income per capita. Since this data is collected over time, a time series analysis could be conducted to take into accounts impactful events such as natural disasters. Further exploration and evaluation of this data should continue, to address areas that most affect education in an effort to increase enrollment rates globally.
 
 ## Sources
  - World Bank
