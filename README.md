@@ -24,12 +24,10 @@ On aggregate data, the Random Forest model performed best. On countries data, th
 
 ## Summary/Conclusions
 <img width="944" alt="tee_by_region_income_2019" src="machine learning/tee_by_region_income_2019.png">
-<img width="944" alt="tee_by_region_income_2019" src="https://github.com/jeletang/MSDS692_Global-Factors-Influencing-Tertiary-Education-Enrollment/assets/125221901/72fa73af-0a59-47cb-8e46-6c4bf4f273ff">
 
 Using the aggregate dataset, the North American and Europe & Central Asia regions had the highest tertiary education enrollment rates, while the Sub-Saharan African region had the lowest. Several global factors influence, and are influenced by, tertiary education enrollment. These include secondary school enrollment, access to utilities such as water and sanitation, literacy, adolescent fertility, and duration (years) of preprimary education, as determined by the Random Forest model tested on aggregate data. With the exception of adolescent fertility, the strongest influencing factors were positively correlated to the target.
 
-<img width="643" alt="rf_influencing-factors" src="machine learning/rf_influencing-factors">
-<img width="643" alt="rf_influencing-factors" src="https://github.com/jeletang/MSDS692_Global-Factors-Influencing-Tertiary-Education-Enrollment/assets/125221901/779731a1-96af-41df-a4e5-bd31a077d6e8">
+<img width="643" alt="rf_influencing-factors" src="machine learning/rf_influencing-factors.png">
 
 These results mean that secondary school enrollment (and completion) contributes positively to enrollment in higher education. With regard to water and sanitation access, these are basic health needs and it stands to reason that healthy students are better equipped to learn and apply knowledge. Preprimary education and literacy are fundamentals to any level of education, and both fuel engagement and continued learning, which culminates at the tertiary level. Adolescent fertility and tertiary education enrollment rates naturally move in opposite directions as they require different responsibilities and dedication of resources.
 
